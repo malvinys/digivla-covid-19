@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import Flag from 'react-world-flags';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
@@ -24,7 +25,11 @@ const DetailPage = () => (
       </thead>
       <tbody>
         <tr>
-          <td rowSpan="10">Australia</td>
+          <td rowSpan="10">
+            <Flag code="AU" height="42" />
+            <br />
+            Australia
+          </td>
           <td rowSpan="10">Au</td>
           <td>20 April 2021</td>
           <td>10</td>

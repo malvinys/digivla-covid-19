@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import Flag from 'react-world-flags';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 
@@ -19,7 +20,10 @@ const HomePage = () => (
       </thead>
       <tbody>
         <tr>
-          <td>Australia</td>
+          <td>
+            <Flag code="AU" height="16" style={{ marginRight: '4px' }} />
+            Australia
+          </td>
           <td>australia</td>
           <td>AU</td>
           <td style={{ textAlign: 'center' }}>
@@ -29,7 +33,10 @@ const HomePage = () => (
           </td>
         </tr>
         <tr>
-          <td>Australia</td>
+          <td>
+            <Flag code="AU" height="16" style={{ marginRight: '4px' }} />
+            Australia
+          </td>
           <td>australia</td>
           <td>AU</td>
           <td style={{ textAlign: 'center' }}>
@@ -39,7 +46,10 @@ const HomePage = () => (
           </td>
         </tr>
         <tr>
-          <td>Australia</td>
+          <td>
+            <Flag code="AU" height="16" style={{ marginRight: '4px' }} />
+            Australia
+          </td>
           <td>australia</td>
           <td>AU</td>
           <td style={{ textAlign: 'center' }}>
@@ -49,7 +59,10 @@ const HomePage = () => (
           </td>
         </tr>
         <tr>
-          <td>Australia</td>
+          <td>
+            <Flag code="AU" height="16" style={{ marginRight: '4px' }} />
+            Australia
+          </td>
           <td>australia</td>
           <td>AU</td>
           <td style={{ textAlign: 'center' }}>
@@ -59,7 +72,10 @@ const HomePage = () => (
           </td>
         </tr>
         <tr>
-          <td>Australia</td>
+          <td>
+            <Flag code="AU" height="16" style={{ marginRight: '4px' }} />
+            Australia
+          </td>
           <td>australia</td>
           <td>AU</td>
           <td style={{ textAlign: 'center' }}>
@@ -69,7 +85,10 @@ const HomePage = () => (
           </td>
         </tr>
         <tr>
-          <td>Australia</td>
+          <td>
+            <Flag code="AU" height="16" style={{ marginRight: '4px' }} />
+            Australia
+          </td>
           <td>australia</td>
           <td>AU</td>
           <td style={{ textAlign: 'center' }}>
