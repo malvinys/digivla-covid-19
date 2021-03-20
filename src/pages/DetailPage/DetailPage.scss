@@ -14,15 +14,4 @@
         margin-bottom: 20px;
         text-align: center;
     }
-
-    th, td {
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    @media (max-width: 768px) {
-        th, td {
-            vertical-align: baseline;
-        }
-    }
 }

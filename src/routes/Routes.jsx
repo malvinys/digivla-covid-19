@@ -7,14 +7,9 @@ import DetailPage from '../pages/DetailPage/DetailPage';
 const Routes = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path="/">
-        <HomePage />
-      </Route>
-      <Route path="/:countryId">
-        <DetailPage />
-      </Route>
+      <Route exact path="/" component={HomePage} />
+      <Route exact path="/:id" component={DetailPage} />
     </Switch>
   </BrowserRouter>
 );
-
 export default Routes;

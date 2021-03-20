@@ -1,0 +1,21 @@
+.react-bootstrap-table {
+    td {
+        border: 1px solid #dee2e6;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+.react-bootstrap-table-pagination {
+    justify-content: flex-end;
+
+    div:first-child {
+        display: none;
+    }
+
+    .pagination {
+        justify-content: flex-end;
+    }
+}

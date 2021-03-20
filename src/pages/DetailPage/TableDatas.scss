@@ -1,0 +1,17 @@
+.DetailPage-table {
+    th, td {
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid #dee2e6;
+    }
+
+    .table-empty {
+        text-align: center;
+    }
+
+    @media (max-width: 768px) {
+        th, td {
+            vertical-align: baseline;
+        }
+    }
+}
